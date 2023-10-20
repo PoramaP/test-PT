@@ -1,0 +1,2 @@
+year = input()
+rate = input()
