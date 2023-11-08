@@ -59,3 +59,10 @@ plt.show()
 plt.close()
 print(dateArray)
 print(rateArray)
+
+                
+                
+        
+    
+
+
