@@ -95,6 +95,9 @@ def processInput():
     except ValueError:
         errorlabel.config(text="Error: Invalid end date format. Please use the format 1/mm/yyyy.")
         return
+    if dateStart > dateEnd:
+        errorlabel.config(text = "Error: the starting date must come before the ending date")
+        return
     try:
         rateCount = int(entryCount.get())
         if not (1 <= rateCount <= 6):
